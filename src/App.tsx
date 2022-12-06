@@ -1,5 +1,5 @@
 import { Component, createSignal } from "solid-js";
-import { component } from "babel-plugin-solid-undestructure";
+import { component } from "undestructure-macros";
 
 const Child = component(({ count: c = 100, ...other }: any) => {
   const NestedChild: Component<{ doubleCount: number }> = ({ doubleCount }) => {

@@ -1,9 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  babel-plugin-solid-undestructure: ^0.1.0
+  babel-plugin-solid-undestructure: ^1.0.1
   solid-js: ^1.6.2
   typescript: ^4.9.3
+  undestructure-macros: ^0.0.1
   vite: ^2.9.15
   vite-plugin-solid: ^2.4.0
 
@@ -11,8 +12,9 @@ dependencies:
   solid-js: 1.6.2
 
 devDependencies:
-  babel-plugin-solid-undestructure: 0.1.0_solid-js@1.6.2
+  babel-plugin-solid-undestructure: 1.0.1_solid-js@1.6.2
   typescript: 4.9.3
+  undestructure-macros: 0.0.1
   vite: 2.9.15
   vite-plugin-solid: 2.4.0_solid-js@1.6.2+vite@2.9.15
 
@@ -427,13 +429,12 @@ packages:
       html-entities: 2.3.2
     dev: true
 
-  /babel-plugin-solid-undestructure/0.1.0_solid-js@1.6.2:
-    resolution: {integrity: sha512-rbVcjqOHlTfgiT3anqs4S5csZppYMS1psf+4uGGjyyJNdRsNowKJr1hOGcu0HjIO1rBpAnmSDpXeyqTNOpA0CA==}
+  /babel-plugin-solid-undestructure/1.0.1_solid-js@1.6.2:
+    resolution: {integrity: sha512-aHT56iu7F8f1gptg80vtvp0FitFDPH/El0edDLGufdt9y0n5lkexqUoLMsS6mJqTDYTKlNS5S6ClFmhNoFW/JQ==}
     peerDependencies:
       solid-js: ^1.2.4
     dependencies:
       '@rollup/plugin-babel': 5.3.1
-      remeda: 0.0.32
       solid-js: 1.6.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -838,10 +839,6 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /remeda/0.0.32:
-    resolution: {integrity: sha512-FEdl8ONpqY7AvvMHG5WYdomc0mGf2khHPUDu6QvNkOq4Wjkw5BvzWM4QyksAQ/US1sFIIRG8TVBn6iJx6HbRrA==}
-    dev: true
-
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
@@ -906,6 +903,10 @@ packages:
     resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: true
+
+  /undestructure-macros/0.0.0:
+    resolution: {integrity: sha512-L80ov2M1Bp50zi1Hbcae1EUap9v58G0LaRUVCVYTL82tsgz+UZE++EqzZLlFqWDdSdwtubCoyaOfYSHObLd86g==}
     dev: true
 
   /update-browserslist-db/1.0.10_browserslist@4.21.4:

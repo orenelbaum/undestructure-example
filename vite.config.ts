@@ -4,8 +4,10 @@ import { undestructurePlugin } from "babel-plugin-solid-undestructure"
 
 export default defineConfig({
   plugins: [
+    // Remove the following line if you are using vanilla-js
     ...undestructurePlugin("ts"),
     solidPlugin({
+      // If you are using vanilla-js, uncomment the following line
       // babel: {
       //   plugins: [undestructurePlugin("vanilla-js")]
       // } 
